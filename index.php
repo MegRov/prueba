@@ -50,7 +50,7 @@
             
             $asd=   $data['sumtotal'];
             $asd=(int)$asd;
-            
+           
             ?>
             
 
@@ -61,12 +61,9 @@
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
         ["Element", "Total", { role: "style" } ],
-
-        <?php 
-        echo "['Costo',".$asd."]";
-        echo "['total',".$asd."]";
-        ?>
-       
+        
+        ["Costo", 35, "#b87333"],
+        ["Total", 50, "silver"],
         
       ]);
 
