@@ -11,4 +11,10 @@
     
     <title>Prueba seleccion</title>
 </head>
+        <nav class="navbar navbar-light bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="https://milasoft.co/wp-content/uploads/2020/01/icono-2.png" width="40" height="40" alt=""> <strong class="text-white">Prueba de conocimiento</strong> 
+      </a>
+    </nav>
+    <div class="col-lg-12"><h1 class="text-center">Reporte</h1></div>
 <body>

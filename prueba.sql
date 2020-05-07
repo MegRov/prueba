@@ -101,7 +101,6 @@ CREATE TABLE IF NOT EXISTS `venta` (
   `chedar` int(30) DEFAULT NULL,
   `costo` int(30) DEFAULT NULL,
   `total` int(30) NOT NULL,
-  `date` date NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`idventa`)
 ) ENGINE=MyISAM AUTO_INCREMENT=47 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -109,14 +108,14 @@ CREATE TABLE IF NOT EXISTS `venta` (
 -- Volcado de datos para la tabla `venta`
 --
 
-INSERT INTO `venta` (`idventa`, `cebolla`, `tomate`, `mayonesa`, `BBQ`, `tocino`, `chedar`, `costo`, `total`, `date`) VALUES
-(46, 0, 0, 0, 0, 1200, 800, 6130, 13500, '2020-05-06'),
-(25, 0, 0, 600, 600, 1200, 600, 7330, 13500, '2020-05-06'),
-(24, 120, 0, 0, 600, 0, 800, 5410, 11500, '2020-05-06'),
-(23, 0, 120, 600, 0, 1200, 0, 5810, 12000, '2020-05-06'),
-(39, 120, 120, 0, 0, 0, 0, 3890, 10000, '2020-05-06'),
-(40, 0, 120, 0, 0, 0, 0, 4010, 10000, '2020-05-06'),
-(41, 120, 0, 0, 0, 0, 0, 4010, 10000, '2020-05-06');
+INSERT INTO `venta` (`idventa`, `cebolla`, `tomate`, `mayonesa`, `BBQ`, `tocino`, `chedar`, `costo`, `total`) VALUES
+(46, 0, 0, 0, 0, 1200, 800, 6130, 13500),
+(25, 0, 0, 600, 600, 1200, 600, 7330, 13500),
+(24, 120, 0, 0, 600, 0, 800, 5410, 11500),
+(23, 0, 120, 600, 0, 1200, 0, 5810, 12000),
+(39, 120, 120, 0, 0, 0, 0, 3890, 10000),
+(40, 0, 120, 0, 0, 0, 0, 4010, 10000),
+(41, 120, 0, 0, 0, 0, 0, 4010, 10000,);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
