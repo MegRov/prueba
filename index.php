@@ -112,7 +112,7 @@
       <th scope="col">Chedar</th>
       <th scope="col">Costo</th>
       <th scope="col">Total</th>
-      <th scope="col">edi/del</th>
+      <th scope="col">delet</th>
     </tr>
   </thead>
   <tbody>
